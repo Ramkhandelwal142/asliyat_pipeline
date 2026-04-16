@@ -1,0 +1,140 @@
+.\cloudflared.exe : 
+2026-04-16T11:12:42Z INF 
+Thank you for trying 
+Cloudflare Tunnel. Doing 
+so, without a Cloudflare 
+account, is a quick way to 
+experiment and try it out. 
+However, be aware that 
+these account-less Tunnels 
+have no uptime guarantee, 
+are subject to the 
+Cloudflare Online Services 
+Terms of Use (https://www.c
+loudflare.com/website-terms
+/), and Cloudflare 
+reserves the right to 
+investigate your use of 
+Tunnels for violations of 
+such terms. If you intend 
+to use Tunnels in 
+production you should use 
+a pre-created named tunnel 
+by following: https://devel
+opers.cloudflare.com/cloudf
+lare-one/connections/connec
+t-apps
+At line:1 char:1
++ .\cloudflared.exe tunnel 
+--url 
+http://127.0.0.1:5001 > 
+new_tunnel_log ...
++ ~~~~~~~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~
+    + CategoryInfo         
+     : NotSpecified: (202  
+  6-04-16T11:1...ns/conn   
+ ect-apps:String) [], R    
+emoteException
+    + FullyQualifiedErrorI 
+   d : NativeCommandError
+ 
+2026-04-16T11:12:42Z INF 
+Requesting new quick 
+Tunnel on 
+trycloudflare.com...
+2026-04-16T11:12:46Z INF +-
+---------------------------
+---------------------------
+---------------------------
+----------+
+2026-04-16T11:12:46Z INF | 
+ Your quick Tunnel has 
+been created! Visit it at 
+(it may take some time to 
+be reachable):  |
+2026-04-16T11:12:46Z INF | 
+ https://leo-food-class-app
+roval.trycloudflare.com    
+                           
+          |
+2026-04-16T11:12:46Z INF +-
+---------------------------
+---------------------------
+---------------------------
+----------+
+2026-04-16T11:12:46Z INF 
+Cannot determine default 
+configuration path. No 
+file [config.yml 
+config.yaml] in 
+[~/.cloudflared 
+~/.cloudflare-warp 
+~/cloudflare-warp]
+2026-04-16T11:12:46Z INF 
+Version 2026.3.0 (Checksum 
+59b12880b24af581cf5b1013db6
+01c7d843b9b097e9c78aa5957c7
+f39f741885)
+2026-04-16T11:12:46Z INF 
+GOOS: windows, GOVersion: 
+go1.24.13, GoArch: amd64
+2026-04-16T11:12:46Z INF 
+Settings: 
+map[ha-connections:1 
+protocol:quic 
+url:http://127.0.0.1:5001]
+2026-04-16T11:12:46Z INF 
+cloudflared will not 
+automatically update on 
+Windows systems.
+2026-04-16T11:12:46Z INF 
+Generated Connector ID: d14
+39644-2a88-473c-a471-f69624
+305520
+2026-04-16T11:12:46Z INF 
+Initial protocol quic
+2026-04-16T11:12:46Z INF 
+ICMP proxy will use 
+10.230.47.34 as source for 
+IPv4
+2026-04-16T11:12:46Z INF 
+ICMP proxy will use 2402:81
+00:310a:207b:8a03:fc26:72c1
+:7219 in zone Wi-Fi as 
+source for IPv6
+2026-04-16T11:12:46Z INF 
+cloudflared does not 
+support loading the system 
+root certificate pool on 
+Windows. Please use 
+--origin-ca-pool <PATH> to 
+specify the path to the 
+certificate pool
+2026-04-16T11:12:46Z INF 
+ICMP proxy will use 
+10.230.47.34 as source for 
+IPv4
+2026-04-16T11:12:46Z INF 
+Tunnel connection curve 
+preferences: 
+[X25519MLKEM768 CurveP256] 
+connIndex=0 event=0 
+ip=198.41.200.23
+2026-04-16T11:12:46Z INF 
+ICMP proxy will use 2402:81
+00:310a:207b:8a03:fc26:72c1
+:7219 in zone Wi-Fi as 
+source for IPv6
+2026-04-16T11:12:46Z INF 
+Starting metrics server on 
+127.0.0.1:20242/metrics
+2026-04-16T11:12:47Z INF 
+Registered tunnel 
+connection connIndex=0 conn
+ection=32c0a624-aa5d-4c3a-9
+6fe-5ba0fdad393e event=0 
+ip=198.41.200.23 
+location=bom12 
+protocol=quic

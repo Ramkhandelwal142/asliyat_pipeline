@@ -1,0 +1,556 @@
+[
+  {
+    "timestamp": "2026-04-13T22:42:46.539972",
+    "topic": "AI Agents",
+    "meme": {
+      "id": 3,
+      "expectation_text": "AI agent = intelligent personal assistant, \u092e\u0947\u0930\u0940 \u0939\u0930 \u092c\u093e\u0924 sunega",
+      "reality_text": "AI agent = 'sorry, I didn't understand', \u092d\u0948\u092f\u093e \u0915UCH toh samajh lo",
+      "emotion": "exasperated humor",
+      "relatability": "everyone has struggled with voice assistants",
+      "target_demo": "18-50 smartphone users",
+      "tag_potential": "people will tag their tech-challenged parent"
+    },
+    "queries": {
+      "expectation_query": "Bollywood hero listening intently cinematic shot",
+      "expectation_keywords": [
+        "Bollywood scene",
+        "hero moment",
+        "listening intently",
+        "action pose"
+      ],
+      "reality_query": "tired Indian man confused expression meme face",
+      "reality_keywords": [
+        "tired Indian man meme",
+        "confused expression",
+        "done face",
+        "exasperated"
+      ],
+      "notes": "For expectation image, look for a scene where the hero is attentively listening to someone, preferably with a determined or focused expression. For reality image, prefer a celebrity meme face with a confused or exasperated expression, like a Bollywood actor looking frustrated or tired."
+    },
+    "expectation_image": "C:\\Users\\ramkh\\Desktop\\RAM AI\\AI Agent\\asliyat_pipeline\\asliyat_pipeline\\output\\expectation.jpg",
+    "reality_image": "C:\\Users\\ramkh\\Desktop\\RAM AI\\AI Agent\\asliyat_pipeline\\asliyat_pipeline\\output\\reality.jpg",
+    "output": "C:\\Users\\ramkh\\Desktop\\RAM AI\\AI Agent\\asliyat_pipeline\\asliyat_pipeline\\output\\asliyat_1776100364.jpg",
+    "qa": {
+      "passed": true,
+      "text_readable": true,
+      "images_relevant": true,
+      "branding_visible": true,
+      "layout_clean": true,
+      "emotional_impact": true,
+      "hinglish_natural": true,
+      "engagement_score": 8,
+      "issues": [],
+      "fix_suggestions": [],
+      "verdict": "Ready to post \u2014 this will go viral"
+    },
+    "time_seconds": 97.0
+  },
+  {
+    "timestamp": "2026-04-13T22:49:07.269508",
+    "topic": "AI Agents",
+    "meme": {
+      "id": 10,
+      "expectation_text": "AI Agents solving all my \u091c\u093c\u093f\u0902\u0926\u0917\u0940 \u0915\u0940 \u0938\u092e\u0938\u094d\u092f\u093e\u090f\u0902",
+      "reality_text": "\u092c\u0938 \u092e\u0941\u091d\u0947 \u0917\u0942\u0917\u0932 \u0938\u0930\u094d\u091a \u0915\u0947 \u0932\u093f\u0902\u0915 \u0926\u0947\u0924\u093e \u0939\u0948 \u0914\u0930 \u092e\u0948\u0902 \u0905\u092d\u0940 \u092d\u0940 \u0917\u0942\u0917\u0932 \u092a\u0930 \u0938\u0930\u094d\u091a \u0915\u0930 \u0930\u0939\u093e \u0939\u0942\u0901",
+      "emotion": "self-deprecating humor on relying on Google",
+      "relatability": "people relying on Google for everything",
+      "target_demo": "18-45 internet users",
+      "tag_potential": "people will tag their friends who love Google"
+    },
+    "queries": {
+      "expectation_query": "Bollywood hero solving problems cinematic shot",
+      "expectation_keywords": [
+        "Bollywood scene",
+        "cinematic shot",
+        "hero moment",
+        "action pose",
+        "problem solving"
+      ],
+      "reality_query": "Rajinikanth tired face holding laptop",
+      "reality_keywords": [
+        "tired Indian man meme",
+        "done face",
+        "confused expression",
+        "Google search"
+      ],
+      "notes": "For the expectation image, look for a scene with a hero standing in front of a cityscape or a futuristic background, with a confident expression. For the reality image, prefer a celebrity face like Rajinikanth or Amitabh Bachchan with a tired or frustrated expression, preferably with a laptop or computer in the scene to represent Google search."
+    },
+    "expectation_image": "C:\\Users\\ramkh\\Desktop\\RAM AI\\AI Agent\\asliyat_pipeline\\asliyat_pipeline\\output\\expectation.jpg",
+    "reality_image": "C:\\Users\\ramkh\\Desktop\\RAM AI\\AI Agent\\asliyat_pipeline\\asliyat_pipeline\\output\\reality.jpg",
+    "output": "C:\\Users\\ramkh\\Desktop\\RAM AI\\AI Agent\\asliyat_pipeline\\asliyat_pipeline\\output\\asliyat_1776100745.jpg",
+    "qa": {
+      "passed": true,
+      "engagement_score": 5,
+      "issues": [],
+      "verdict": "Unknown"
+    },
+    "time_seconds": 103.6
+  },
+  {
+    "timestamp": "2026-04-13T22:59:01.717391",
+    "topic": "AI Agents",
+    "meme": {
+      "id": 3,
+      "expectation_text": "AI agent will be my personal assistant, bhai, like a secy",
+      "reality_text": "AI agent can't even remind me to eat food, ab bhukh lag rahi hai",
+      "emotion": "self-deprecating humor about forgetfulness",
+      "relatability": "everyone has forgotten something important",
+      "target_demo": "18-30 working professionals",
+      "tag_potential": "people will tag their friends who are always forgetting things"
+    },
+    "queries": {
+      "expectation_query": "Bollywood hero talking to assistant cinematic shot",
+      "expectation_keywords": [
+        "Bollywood scene",
+        "cinematic shot",
+        "hero moment",
+        "talking to assistant"
+      ],
+      "reality_query": "Rajpal Yadav tired face holding stomach",
+      "reality_keywords": [
+        "tired Indian man meme",
+        "done face",
+        "confused expression",
+        "holding stomach"
+      ],
+      "notes": "For expectation image, look for a scene with a hero talking to someone, preferably in a sleek or high-tech environment. For reality image, prioritize Indian celebrity faces with a comedic expression, preferably holding their stomach to convey hunger."
+    },
+    "expectation_image": "C:\\Users\\ramkh\\Desktop\\RAM AI\\AI Agent\\asliyat_pipeline\\asliyat_pipeline\\output\\expectation.jpg",
+    "reality_image": "C:\\Users\\ramkh\\Desktop\\RAM AI\\AI Agent\\asliyat_pipeline\\asliyat_pipeline\\output\\reality.jpg",
+    "output": "C:\\Users\\ramkh\\Desktop\\RAM AI\\AI Agent\\asliyat_pipeline\\asliyat_pipeline\\output\\asliyat_1776101337.jpg",
+    "qa": {
+      "passed": true,
+      "engagement_score": 5,
+      "issues": [],
+      "verdict": "Unknown"
+    },
+    "time_seconds": 105.4
+  },
+  {
+    "timestamp": "2026-04-14T00:57:00.219668",
+    "topic": "Board exam results vs Expected results",
+    "meme": {
+      "id": 1,
+      "expectation_text": "Expected: 95% +, yaar, I'm a topper",
+      "reality_text": "Reality: 50% - bas, I passed, toh sab thik hai",
+      "emotion": "self-deprecating humor",
+      "relatability": "everyone has been there after exam results",
+      "target_demo": "16-20 students",
+      "tag_potential": "students will tag their friends who struggled in exams"
+    },
+    "queries": {
+      "expectation_query": "Bollywood hero studying scene cinematic shot",
+      "expectation_keywords": [
+        "Bollywood scene",
+        "hero moment",
+        "studying pose",
+        "aspirational"
+      ],
+      "reality_query": "tired Indian man meme face with a relieved expression",
+      "reality_keywords": [
+        "tired face",
+        "relieved expression",
+        "Indian celebrity meme"
+      ],
+      "notes": "For the expectation image, look for a scene with a confident and focused hero. For the reality image, prefer a celebrity meme face with a mix of exhaustion and relief, conveying the 'bas, I passed' sentiment."
+    },
+    "expectation_image": "C:\\Users\\ramkh\\Desktop\\RAM AI\\AI Agent\\asliyat_pipeline\\asliyat_pipeline\\output\\expectation.jpg",
+    "reality_image": "C:\\Users\\ramkh\\Desktop\\RAM AI\\AI Agent\\asliyat_pipeline\\asliyat_pipeline\\output\\reality.jpg",
+    "output": "C:\\Users\\ramkh\\Desktop\\RAM AI\\AI Agent\\asliyat_pipeline\\asliyat_pipeline\\output\\asliyat_1776108419.jpg",
+    "qa": {
+      "passed": true,
+      "text_readable": true,
+      "images_relevant": true,
+      "branding_visible": true,
+      "layout_clean": true,
+      "emotional_impact": true,
+      "hinglish_natural": true,
+      "engagement_score": 8,
+      "issues": [],
+      "fix_suggestions": [],
+      "verdict": "Ready to post \u2014 this will go viral"
+    },
+    "time_seconds": 90.8
+  },
+  {
+    "timestamp": "2026-04-14T11:28:40.914317",
+    "topic": "Mumbai Local Train Struggles in Peak Hours",
+    "meme": {
+      "id": 7,
+      "expectation_text": "Finding love in the local, pyaar hai, toh",
+      "reality_text": "Pata nahi, kaun hai, kahan hai, bas dekh ke chala ja",
+      "emotion": "romantic humor",
+      "relatability": "crushes in the local",
+      "target_demo": "romantics",
+      "tag_potential": "tag a friend who's been there"
+    },
+    "queries": {
+      "expectation_query": "Bollywood hero romantic pose cinematic shot",
+      "expectation_keywords": [
+        "Bollywood scene",
+        "hero moment",
+        "romantic pose",
+        "cinematic shot"
+      ],
+      "reality_query": "Ranveer Singh confused expression tired face",
+      "reality_keywords": [
+        "tired Indian man meme",
+        "confused expression",
+        "done face",
+        "Ranveer Singh meme"
+      ],
+      "notes": "For the expectation image, look for a scene with a solo hero, preferably with a romantic backdrop. For the reality image, prioritize celebrity meme faces, especially Ranveer Singh or similar Indian celebrities, with an expression that conveys confusion or exhaustion."
+    },
+    "expectation_image": "C:\\Users\\ramkh\\Desktop\\RAM AI\\AI Agent\\asliyat_pipeline\\asliyat_pipeline\\output\\expectation.jpg",
+    "reality_image": "C:\\Users\\ramkh\\Desktop\\RAM AI\\AI Agent\\asliyat_pipeline\\asliyat_pipeline\\output\\reality.jpg",
+    "output": "C:\\Users\\ramkh\\Desktop\\RAM AI\\AI Agent\\asliyat_pipeline\\asliyat_pipeline\\output\\asliyat_1776146319.jpg",
+    "qa": {
+      "passed": true,
+      "text_readable": true,
+      "images_relevant": true,
+      "branding_visible": true,
+      "layout_clean": true,
+      "emotional_impact": true,
+      "hinglish_natural": true,
+      "engagement_score": 8,
+      "issues": [],
+      "fix_suggestions": [],
+      "verdict": "Ready to post \u2014 this will go viral"
+    },
+    "time_seconds": 76.9
+  },
+  {
+    "timestamp": "2026-04-14T11:30:53.445223",
+    "topic": "Mumbai Local Train Struggles in Peak Hours",
+    "meme": {
+      "id": 6,
+      "expectation_text": "Easily getting in and out of the train",
+      "reality_text": "Dher lagake utarna, aur kisi ke upar chadh ke neeche aana",
+      "emotion": "absurd humor",
+      "relatability": "shared experience of rush hour chaos",
+      "target_demo": "18-40 working professionals",
+      "tag_potential": "people will tag their office friends"
+    },
+    "queries": {
+      "expectation_query": "Bollywood hero getting in and out of train cinematic shot",
+      "expectation_keywords": [
+        "Bollywood scene",
+        "cinematic shot",
+        "hero moment",
+        "action pose",
+        "train station"
+      ],
+      "reality_query": "tired Indian man meme stuck in crowded train with confused expression",
+      "reality_keywords": [
+        "tired Indian man meme",
+        "done face",
+        "confused expression",
+        "crowded train",
+        "frustrated face"
+      ],
+      "notes": "For expectation image, look for high-quality, cinematic shots with a clear view of the train and the hero. For reality image, prefer images with Indian celebrities like Rajinikanth, Amitabh Bachchan, or Irrfan Khan with a relatable, exhausted expression. Ensure the images are high-resolution and free of watermarks, text overlays, and logos."
+    },
+    "expectation_image": "C:\\Users\\ramkh\\Desktop\\RAM AI\\AI Agent\\asliyat_pipeline\\asliyat_pipeline\\output\\expectation.jpg",
+    "reality_image": "C:\\Users\\ramkh\\Desktop\\RAM AI\\AI Agent\\asliyat_pipeline\\asliyat_pipeline\\output\\reality.jpg",
+    "output": "C:\\Users\\ramkh\\Desktop\\RAM AI\\AI Agent\\asliyat_pipeline\\asliyat_pipeline\\output\\asliyat_1776146450.jpg",
+    "qa": {
+      "passed": true,
+      "engagement_score": 5,
+      "issues": [],
+      "verdict": "Unknown"
+    },
+    "time_seconds": 77.1
+  },
+  {
+    "timestamp": "2026-04-14T11:36:40.137036",
+    "topic": "Mumbai Local Train in Peak Hours",
+    "meme": {
+      "id": 2,
+      "expectation_text": "Listening to Arjit Singh and looking out the window like a romantic Bollywood hero, yaar",
+      "reality_text": "Aadmi ke upar aadmi, bas CTC aur kalesh, Virar fast ki taraf bhi nahi dekh paate",
+      "emotion": "sarcastic take on daily grind",
+      "relatability": "everyone's experienced the Virar fast squeeze",
+      "target_demo": "18-25 students and young workers",
+      "tag_potential": "people will tag their friends who take Virar fast"
+    },
+    "queries": {
+      "expectation_query": "Bollywood hero looking out window cinematic shot",
+      "expectation_keywords": [
+        "Bollywood scene",
+        "hero moment",
+        "looking out window",
+        "cinematic shot"
+      ],
+      "reality_query": "tired Indian man looking frustrated meme face",
+      "reality_keywords": [
+        "tired Indian man meme",
+        "done face",
+        "confused expression",
+        "frustrated face"
+      ],
+      "notes": "For expectation image, look for a high-quality, cinematic shot of a Bollywood hero (e.g. Shah Rukh Khan, Ranveer Singh) looking out a window with a romantic or introspective expression. For reality image, prefer a celebrity meme face (e.g. Rajinikanth, Akshay Kumar) with a tired, frustrated, or done expression. Ensure images are high-resolution and do not contain watermarks, text overlays, or logos."
+    },
+    "expectation_image": "C:\\Users\\ramkh\\Desktop\\RAM AI\\AI Agent\\asliyat_pipeline\\asliyat_pipeline\\output\\expectation.jpg",
+    "reality_image": "C:\\Users\\ramkh\\Desktop\\RAM AI\\AI Agent\\asliyat_pipeline\\asliyat_pipeline\\output\\reality.jpg",
+    "output": "C:\\Users\\ramkh\\Desktop\\RAM AI\\AI Agent\\asliyat_pipeline\\asliyat_pipeline\\output\\asliyat_1776146798.jpg",
+    "qa": {
+      "passed": true,
+      "engagement_score": 0,
+      "issues": [
+        "QA error: No LLM provider available for vision"
+      ],
+      "verdict": "Could not analyze \u2014 review manually"
+    },
+    "time_seconds": 126.1
+  },
+  {
+    "timestamp": "2026-04-14T12:12:29.829693",
+    "topic": null,
+    "meme": {
+      "id": 5,
+      "expectation_text": "Mom's expectations = Simple, understanding, and supportive, bas",
+      "reality_text": "Mom's expectations = 'Shaadi kab hai?', 'Beta, ghar kab aayega?', aur kuch nahi",
+      "emotion": "self-deprecating mom humor",
+      "relatability": "everyone has faced mom's expectations",
+      "target_demo": "20-30 adulting Indians",
+      "tag_potential": "people will tag their mom"
+    },
+    "queries": {
+      "expectation_query": "Bollywood hero moment simple understanding supportive background",
+      "expectation_keywords": [
+        "Bollywood scene",
+        "cinematic shot",
+        "hero moment",
+        "action pose",
+        "simple",
+        "understanding",
+        "supportive"
+      ],
+      "reality_query": "tired Indian mom face shaadi kab hai expression",
+      "reality_keywords": [
+        "tired Indian man meme",
+        "done face",
+        "confused expression",
+        "shaadi kab hai",
+        "Indian mom face"
+      ],
+      "notes": "For the expectation image, look for a cinematic shot with a simple, understanding, and supportive tone. For the reality image, prefer a celebrity meme face (e.g. Irrfan Khan, Nawazuddin Siddiqui, or a similar Indian celebrity) with a tired, done, or confused expression. Ensure the selected images are high-resolution and do not contain watermarks, text overlays, or logos."
+    },
+    "expectation_image": "C:\\Users\\ramkh\\Desktop\\RAM AI\\AI Agent\\asliyat_pipeline\\asliyat_pipeline\\output\\expectation.jpg",
+    "reality_image": "C:\\Users\\ramkh\\Desktop\\RAM AI\\AI Agent\\asliyat_pipeline\\asliyat_pipeline\\output\\reality.jpg",
+    "output": "C:\\Users\\ramkh\\Desktop\\RAM AI\\AI Agent\\asliyat_pipeline\\asliyat_pipeline\\output\\asliyat_1776148947.jpg",
+    "qa": {
+      "passed": true,
+      "engagement_score": 5,
+      "issues": [],
+      "verdict": "Unknown"
+    },
+    "time_seconds": 99.6
+  },
+  {
+    "timestamp": "2026-04-16T16:46:10.668971",
+    "topic": null,
+    "meme": {
+      "id": 3,
+      "expectation_text": "CTC 20 lakhs, foreign trip, and a fancy car like a NRI relative",
+      "reality_text": "Yaar, CTC 6 lakhs, jugaad karke Ola book karna, aur ghar waale kehte hain shaadi kab kar rahe ho",
+      "emotion": "self-deprecating career humor",
+      "relatability": "every young Indian adult can relate to the struggle",
+      "target_demo": "22-32 working professionals",
+      "tag_potential": "people will tag their friends who are struggling to find a good job"
+    },
+    "queries": {
+      "expectation_query": "Bollywood hero standing in front of a luxury car with a suitcase, cinematic shot",
+      "expectation_keywords": [
+        "Bollywood scene",
+        "hero moment",
+        "luxury car",
+        "foreign trip"
+      ],
+      "reality_query": "Rajesh Khera confused expression, tired Indian man meme, sitting on a couch with a phone",
+      "reality_keywords": [
+        "tired Indian man meme",
+        "done face",
+        "confused expression",
+        "Rajesh Khera meme"
+      ],
+      "notes": "For the expectation image, look for a high-quality, cinematic shot with a Bollywood hero standing confidently in front of a luxury car, with a suitcase by their side, conveying a sense of aspiration and achievement. For the reality image, prefer a meme face of an Indian celebrity like Rajesh Khera, with a confused or exhausted expression, sitting on a couch, possibly holding a phone, to convey the contrast between expectation and reality."
+    },
+    "expectation_image": "C:\\Users\\ramkh\\Desktop\\RAM AI\\AI Agent\\asliyat_pipeline\\asliyat_pipeline\\output\\expectation.jpg",
+    "reality_image": "C:\\Users\\ramkh\\Desktop\\RAM AI\\AI Agent\\asliyat_pipeline\\asliyat_pipeline\\output\\reality.jpg",
+    "output": "C:\\Users\\ramkh\\Desktop\\RAM AI\\AI Agent\\asliyat_pipeline\\asliyat_pipeline\\output\\asliyat_1776338167.jpg",
+    "qa": {
+      "passed": true,
+      "engagement_score": 5,
+      "issues": [],
+      "verdict": "Unknown"
+    },
+    "time_seconds": 98.7
+  },
+  {
+    "timestamp": "2026-04-16T16:49:12.873279",
+    "topic": "Travel ",
+    "meme": {
+      "id": 1,
+      "expectation_text": "Listening to Arjit Singh and looking out the window like a romantic Bollywood hero on a Virar fast local",
+      "reality_text": "Dadar utarte waqt pair zameen par nahi hote, bas bheed ke sahare bahar phek diye jaate hain, bhai",
+      "emotion": "relatable travel frustration",
+      "relatability": "Mumbai locals will feel this kalesh",
+      "target_demo": "18-30 Mumbai commuters",
+      "tag_potential": "everyone will tag their travel buddies"
+    },
+    "queries": {
+      "expectation_query": "Bollywood hero looking out train window cinematic shot",
+      "expectation_keywords": [
+        "Bollywood scene",
+        "hero moment",
+        "romantic pose",
+        "looking out window"
+      ],
+      "reality_query": "tired Indian man being pushed in crowded train done face",
+      "reality_keywords": [
+        "tired Indian man meme",
+        "done face",
+        "crowded train",
+        "frustrated expression"
+      ],
+      "notes": "For expectation image, look for a solo male figure in a heroic pose, preferably with a blurred background. For reality image, prefer a celebrity meme face (e.g. Rajinikanth, Amitabh Bachchan, or a similar Indian celebrity) with a shocked, tired, or frustrated expression. Ensure the images are high-resolution and free of watermarks, text overlays, and logos."
+    },
+    "expectation_image": "C:\\Users\\ramkh\\Desktop\\RAM AI\\AI Agent\\asliyat_pipeline\\asliyat_pipeline\\output\\expectation.jpg",
+    "reality_image": "C:\\Users\\ramkh\\Desktop\\RAM AI\\AI Agent\\asliyat_pipeline\\asliyat_pipeline\\output\\reality.jpg",
+    "output": "C:\\Users\\ramkh\\Desktop\\RAM AI\\AI Agent\\asliyat_pipeline\\asliyat_pipeline\\output\\asliyat_1776338350.jpg",
+    "qa": {
+      "passed": true,
+      "engagement_score": 5,
+      "issues": [],
+      "verdict": "Unknown"
+    },
+    "time_seconds": 96.9
+  },
+  {
+    "timestamp": "2026-04-16T17:22:45.683695",
+    "topic": "Indian Traffic",
+    "meme": {
+      "id": 3,
+      "expectation_text": "Reaching office on time, giving HR a happy smile, and getting a good CTC hike",
+      "reality_text": "Stuck in a jugaad auto, driver taking a random route, aur phir bhi poora fare maangta hai",
+      "emotion": "resigned humor",
+      "relatability": "office goers dealing with daily commute struggles",
+      "target_demo": "22-45 corporate employees",
+      "tag_potential": "colleagues will tag each other about their own commute disasters"
+    },
+    "queries": {
+      "expectation_query": "Bollywood hero walking into office with confident smile cinematic shot",
+      "expectation_keywords": [
+        "Bollywood scene",
+        "hero moment",
+        "confident smile",
+        "cinematic shot"
+      ],
+      "reality_query": "Rajpal Yadav confused and frustrated face in a crowded auto-rickshaw",
+      "reality_keywords": [
+        "tired Indian man meme",
+        "confused expression",
+        "frustrated face",
+        "Rajpal Yadav meme"
+      ],
+      "notes": "For expectation image, look for a scene with a hero walking into an office with a confident smile, preferably with a blurred background to emphasize the cinematic effect. For reality image, prefer a celebrity meme face like Rajpal Yadav or a similar Indian actor with a confused and frustrated expression, sitting in a crowded auto-rickshaw."
+    },
+    "expectation_image": "C:\\Users\\ramkh\\Desktop\\RAM AI\\AI Agent\\asliyat_pipeline\\asliyat_pipeline\\output\\expectation.jpg",
+    "reality_image": "C:\\Users\\ramkh\\Desktop\\RAM AI\\AI Agent\\asliyat_pipeline\\asliyat_pipeline\\output\\reality.jpg",
+    "output": "C:\\Users\\ramkh\\Desktop\\RAM AI\\AI Agent\\asliyat_pipeline\\asliyat_pipeline\\output\\asliyat_1776340361.jpg",
+    "qa": {
+      "passed": true,
+      "engagement_score": 5,
+      "issues": [],
+      "verdict": "Unknown"
+    },
+    "time_seconds": 177.3
+  },
+  {
+    "timestamp": "2026-04-16T17:23:56.869119",
+    "topic": "Adulting life",
+    "meme": {
+      "id": 3,
+      "expectation_text": "Independent life in a sleek city apartment, bhai log ke saath party",
+      "reality_text": "Paying rent, bills, aur mama ke phone calls ko handle karna, yaar, ab to bas jugaad se guzara",
+      "emotion": "self-deprecating millennial humor",
+      "relatability": "every young adult faces financial struggles",
+      "target_demo": "20-28 post-grads",
+      "tag_potential": "people will tag their roommates"
+    },
+    "queries": {
+      "expectation_query": "Bollywood scene hero moment party with friends in a sleek city apartment",
+      "expectation_keywords": [
+        "Bollywood scene",
+        "hero moment",
+        "party pose",
+        "city apartment",
+        "friends"
+      ],
+      "reality_query": "Ranveer Singh tired face on phone call with confused expression",
+      "reality_keywords": [
+        "tired Indian man meme",
+        "done face",
+        "confused expression",
+        "phone call",
+        "Ranveer Singh"
+      ],
+      "notes": "For the expectation image, look for a high-quality, cinematic shot with a group of friends partying in a modern apartment. For the reality image, prefer a celebrity meme face (like Ranveer Singh) with a tired or confused expression, ideally on a phone call. Ensure the images are high-resolution and without watermarks, text overlays, or logos."
+    },
+    "expectation_image": "C:\\Users\\ramkh\\Desktop\\RAM AI\\AI Agent\\asliyat_pipeline\\asliyat_pipeline\\output\\expectation.jpg",
+    "reality_image": "C:\\Users\\ramkh\\Desktop\\RAM AI\\AI Agent\\asliyat_pipeline\\asliyat_pipeline\\output\\reality.jpg",
+    "output": "C:\\Users\\ramkh\\Desktop\\RAM AI\\AI Agent\\asliyat_pipeline\\asliyat_pipeline\\output\\asliyat_1776340434.jpg",
+    "qa": {
+      "passed": true,
+      "engagement_score": 5,
+      "issues": [],
+      "verdict": "Unknown"
+    },
+    "time_seconds": 159.9
+  },
+  {
+    "timestamp": "2026-04-16T17:26:10.355507",
+    "topic": "Gym",
+    "meme": {
+      "id": 3,
+      "expectation_text": "Taking a Virar fast train to the gym, and then doing a intense workout like a pro athlete, with my HR playlist on, bhai",
+      "reality_text": "Stuck in Andheri traffic, aur phir pata chalta hai gym bandh hai, kyunki municipal ka kalesh hai, aur bas jugaad karke ghar ka raasta dekhna padta hai, yaar",
+      "emotion": "sarcastic take on Mumbai life",
+      "relatability": "everyone has faced traffic and gym issues",
+      "target_demo": "22-28 Mumbaikars",
+      "tag_potential": "people will tag their friends who hate Mumbai traffic"
+    },
+    "queries": {
+      "expectation_query": "Bollywood hero running towards camera in slow motion with earphones on",
+      "expectation_keywords": [
+        "Bollywood scene",
+        "cinematic shot",
+        "hero moment",
+        "action pose",
+        "running",
+        "earphones"
+      ],
+      "reality_query": "Ranveer Singh tired face with hands on head",
+      "reality_keywords": [
+        "tired Indian man meme",
+        "done face",
+        "confused expression",
+        "frustrated",
+        "stuck in traffic"
+      ],
+      "notes": "For expectation image, look for a high-energy scene with a solo character, preferably with a blurred background to emphasize the 'hero moment'. For reality image, prefer a close-up shot of a tired face, ideally with a celebrity like Ranveer Singh or a similar meme-worthy expression. Ensure the images are of high resolution and do not contain any watermarks, text overlays, or logos."
+    },
+    "expectation_image": "C:\\Users\\ramkh\\Desktop\\RAM AI\\AI Agent\\asliyat_pipeline\\asliyat_pipeline\\output\\expectation.jpg",
+    "reality_image": "C:\\Users\\ramkh\\Desktop\\RAM AI\\AI Agent\\asliyat_pipeline\\asliyat_pipeline\\output\\reality.jpg",
+    "output": "C:\\Users\\ramkh\\Desktop\\RAM AI\\AI Agent\\asliyat_pipeline\\asliyat_pipeline\\output\\asliyat_1776340568.jpg",
+    "qa": {
+      "passed": true,
+      "engagement_score": 5,
+      "issues": [],
+      "verdict": "Unknown"
+    },
+    "time_seconds": 252.9
+  }
+]
