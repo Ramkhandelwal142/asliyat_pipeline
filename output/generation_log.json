@@ -552,5 +552,208 @@
       "verdict": "Unknown"
     },
     "time_seconds": 252.9
+  },
+  {
+    "timestamp": "2026-04-16T17:40:16.892564",
+    "topic": "Gym",
+    "meme": {
+      "id": 3,
+      "expectation_text": "Taking a relaxing shower and sipping on a protein shake like a Bollywood hero after a intense workout, bhai",
+      "reality_text": "Shower mein paani thanda hai, towel gum ho gaya hai, aur protein shake ki jagah chai ki chuski aur cigarette ki boonde mil rahi hain, yaar",
+      "emotion": "sarcastic look at gym realities",
+      "relatability": "everyone has had a bad gym experience",
+      "target_demo": "18-28 gym regulars",
+      "tag_potential": "people will tag their friend who loves Bollywood"
+    },
+    "queries": {
+      "expectation_query": "Bollywood hero shower scene cinematic shot with protein shake",
+      "expectation_keywords": [
+        "Bollywood scene",
+        "hero moment",
+        "cinematic shot",
+        "action pose",
+        "shower",
+        "protein shake"
+      ],
+      "reality_query": "tired Indian man meme with cold shower and cigarette expression",
+      "reality_keywords": [
+        "tired Indian man meme",
+        "done face",
+        "confused expression",
+        "cold shower",
+        "cigarette"
+      ],
+      "notes": "For expectation image, look for high-quality, cinematic shots from Bollywood movies or fitness ads. For reality image, prefer memes or funny expressions from Indian celebrities like Rajinikanth, Amitabh Bachchan, or Ranveer Singh. Ensure the images are high-resolution and do not contain watermarks, text overlays, or logos."
+    },
+    "expectation_image": "C:\\Users\\ramkh\\Desktop\\RAM AI\\AI Agent\\asliyat_pipeline\\asliyat_pipeline\\output\\expectation.jpg",
+    "reality_image": "C:\\Users\\ramkh\\Desktop\\RAM AI\\AI Agent\\asliyat_pipeline\\asliyat_pipeline\\output\\reality.jpg",
+    "output": "C:\\Users\\ramkh\\Desktop\\RAM AI\\AI Agent\\asliyat_pipeline\\asliyat_pipeline\\output\\asliyat_1776341409.jpg",
+    "qa": {
+      "passed": true,
+      "text_readable": true,
+      "images_relevant": true,
+      "branding_visible": true,
+      "layout_clean": true,
+      "emotional_impact": true,
+      "hinglish_natural": true,
+      "engagement_score": 8,
+      "issues": [
+        "Consider increasing font size for better readability on smaller screens.",
+        "Gold separator could be thicker for better visibility."
+      ],
+      "fix_suggestions": [
+        "Increase font size for better readability.",
+        "Thicken gold separator for better visibility."
+      ],
+      "verdict": "Ready to post \u2014 this will go viral"
+    },
+    "time_seconds": 82.4
+  },
+  {
+    "timestamp": "2026-04-16T17:41:13.245646",
+    "topic": "Traffic",
+    "meme": {
+      "id": 3,
+      "expectation_text": "Romantically driving with bae on a Sunday evening, sunset ke saath, Marine Drive par, feeling like a total filmy hero bhai",
+      "reality_text": "Bhai, signal tod ke nikalna pada, aur ab challan bhi kat gaya, aur uske baad bae ki daant, kya kalesh hai yeh",
+      "emotion": "relatable dating humor",
+      "relatability": "couples will identify",
+      "target_demo": "young couples",
+      "tag_potential": "people will tag their partner"
+    },
+    "queries": {
+      "expectation_query": "Bollywood hero driving car on Marine Drive at sunset cinematic shot",
+      "expectation_keywords": [
+        "Bollywood scene",
+        "hero moment",
+        "romantic drive",
+        "cinematic shot"
+      ],
+      "reality_query": "Ranveer Singh frustrated face with hands on head",
+      "reality_keywords": [
+        "tired Indian man meme",
+        "done face",
+        "frustrated expression",
+        "Ranveer Singh meme"
+      ],
+      "notes": "For expectation image, look for high-quality, cinematic shots of a couple driving on Marine Drive with a sunset in the background. For reality image, prefer a celebrity meme face (Ranveer Singh works well for Indian audience) with a frustrated or exhausted expression, conveying the emotion of getting a challan and being scolded."
+    },
+    "expectation_image": "C:\\Users\\ramkh\\Desktop\\RAM AI\\AI Agent\\asliyat_pipeline\\asliyat_pipeline\\output\\expectation.jpg",
+    "reality_image": "C:\\Users\\ramkh\\Desktop\\RAM AI\\AI Agent\\asliyat_pipeline\\asliyat_pipeline\\output\\reality.jpg",
+    "output": "C:\\Users\\ramkh\\Desktop\\RAM AI\\AI Agent\\asliyat_pipeline\\asliyat_pipeline\\output\\asliyat_1776341459.jpg",
+    "qa": {
+      "passed": true,
+      "text_readable": true,
+      "images_relevant": true,
+      "branding_visible": true,
+      "layout_clean": true,
+      "emotional_impact": true,
+      "hinglish_natural": true,
+      "engagement_score": 8,
+      "issues": [
+        "Consider using a slightly larger font for better readability on smaller screens."
+      ],
+      "fix_suggestions": [
+        "Increase font size for better readability."
+      ],
+      "verdict": "Ready to post \u2014 this will go viral"
+    },
+    "time_seconds": 150.3
+  },
+  {
+    "timestamp": "2026-04-16T17:41:19.915827",
+    "topic": "Gym",
+    "meme": {
+      "id": 3,
+      "expectation_text": "Doing a perfect squat like a fitness model, jugaad leg day goals",
+      "reality_text": "Tripping on the treadmill and face-planting in front of the whole gym, abhi bhi gym membership cancel nahi kiya",
+      "emotion": "laughable moment of clumsiness at the gym",
+      "relatability": "everyone has had a clumsy moment at the gym",
+      "target_demo": "18-25 fitness-conscious youth",
+      "tag_potential": "people will tag their gym friend who has had a similar experience"
+    },
+    "queries": {
+      "expectation_query": "Bollywood hero doing a perfect squat cinematic shot",
+      "expectation_keywords": [
+        "Bollywood scene",
+        "cinematic shot",
+        "hero moment",
+        "action pose",
+        "squat"
+      ],
+      "reality_query": "Ranveer Singh tired face plant meme",
+      "reality_keywords": [
+        "tired Indian man meme",
+        "done face",
+        "confused expression",
+        "face plant",
+        "gym fail"
+      ],
+      "notes": "For the expectation image, look for a high-quality, cinematic photo of a person doing a perfect squat, preferably with a dramatic background or lighting. For the reality image, prefer a funny, exaggerated expression of a celebrity like Ranveer Singh, with a focus on the face-plant or tripping action. Avoid images with watermarks, text overlays, or low resolution."
+    },
+    "expectation_image": "C:\\Users\\ramkh\\Desktop\\RAM AI\\AI Agent\\asliyat_pipeline\\asliyat_pipeline\\output\\expectation.jpg",
+    "reality_image": "C:\\Users\\ramkh\\Desktop\\RAM AI\\AI Agent\\asliyat_pipeline\\asliyat_pipeline\\output\\reality.jpg",
+    "output": "C:\\Users\\ramkh\\Desktop\\RAM AI\\AI Agent\\asliyat_pipeline\\asliyat_pipeline\\output\\asliyat_1776341476.jpg",
+    "qa": {
+      "passed": true,
+      "text_readable": true,
+      "images_relevant": true,
+      "branding_visible": true,
+      "layout_clean": true,
+      "emotional_impact": true,
+      "hinglish_natural": true,
+      "engagement_score": 8,
+      "issues": [],
+      "fix_suggestions": [],
+      "verdict": "Ready to post \u2014 this will go viral"
+    },
+    "time_seconds": 98.8
+  },
+  {
+    "timestamp": "2026-04-16T17:51:20.562765",
+    "topic": null,
+    "meme": {
+      "id": 3,
+      "expectation_text": "Ordering food online, tracking it like a SpaceX launch, and enjoying it like a king with minha yaar",
+      "reality_text": "1 hour wait, khana aaya to khaana pehle hi khatam ho gaya, bas dhakkan khuli thi, and jugaad se plate dhona pada",
+      "emotion": "dark humor about food delivery struggles",
+      "relatability": "everyone has faced issues with food delivery",
+      "target_demo": "18-30 foodies",
+      "tag_potential": "people will tag their friends who have faced similar issues"
+    },
+    "queries": {
+      "expectation_query": "Bollywood hero tracking food delivery on phone cinematic shot",
+      "expectation_keywords": [
+        "Bollywood scene",
+        "cinematic shot",
+        "hero moment",
+        "tracking food"
+      ],
+      "reality_query": "Ranveer Singh tired face with empty food plate confused expression",
+      "reality_keywords": [
+        "tired Indian man meme",
+        "done face",
+        "confused expression",
+        "empty plate"
+      ],
+      "notes": "For expectation image, look for a scene with a hero standing in front of a large screen or a phone, tracking something with a serious expression. For reality image, prefer a celebrity face with a comically exhausted or confused expression, with an empty food plate or a related prop in the scene."
+    },
+    "expectation_image": "C:\\Users\\ramkh\\Desktop\\RAM AI\\AI Agent\\asliyat_pipeline\\asliyat_pipeline\\output\\expectation.jpg",
+    "reality_image": "C:\\Users\\ramkh\\Desktop\\RAM AI\\AI Agent\\asliyat_pipeline\\asliyat_pipeline\\output\\reality.jpg",
+    "output": "C:\\Users\\ramkh\\Desktop\\RAM AI\\AI Agent\\asliyat_pipeline\\asliyat_pipeline\\output\\asliyat_1776342079.jpg",
+    "qa": {
+      "passed": true,
+      "text_readable": true,
+      "images_relevant": true,
+      "branding_visible": true,
+      "layout_clean": true,
+      "emotional_impact": true,
+      "hinglish_natural": true,
+      "engagement_score": 8,
+      "issues": [],
+      "fix_suggestions": [],
+      "verdict": "Ready to post \u2014 this will go viral"
+    },
+    "time_seconds": 62.5
   }
 ]
