@@ -1,5 +1,5 @@
 # Use the official Playwright Python image
-FROM mcr.microsoft.com/playwright/python:v1.44.0-jammy
+FROM mcr.microsoft.com/playwright/python:v1.50.0-jammy
 
 # Set environment variables
 ENV PYTHONUNBUFFERED=1
@@ -24,5 +24,4 @@ RUN mkdir -p output && chmod 777 output
 EXPOSE 5001
 
 # Command to run the application
-# We use dashboard.py as the entry point
 CMD ["python", "dashboard.py"]
