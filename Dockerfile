@@ -24,5 +24,4 @@ RUN mkdir -p output && chmod 777 output
 EXPOSE 5001
 
 # Command to run the application
-# We use dashboard.py as the entry point
 CMD ["python", "dashboard.py"]
