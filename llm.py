@@ -53,13 +53,7 @@ class LLMProvider:
         if HAS_GROQ and GROQ_API_KEY and GROQ_API_KEY != "your_groq_api_key_here":
             try:
                 self.groq_client = Groq(api_key=GROQ_API_KEY)
-                # Quick test call
-                resp = self.groq_client.chat.completions.create(
-                    model=GROQ_TEXT_MODEL,
-                    messages=[{"role": "user", "content": "Hi"}],
-                    max_tokens=5,
-                )
-                print("  ✅ Groq connected successfully")
+                print("  ✅ Groq client initialized")
             except Exception as e:
                 print(f"  ⚠ Groq init failed: {e}")
                 self.groq_client = None
@@ -266,8 +260,12 @@ class LLMProvider:
 _llm_instance = None
 
 def get_llm() -> LLMProvider:
-    """Get or create the singleton LLM provider."""
+    """Get or create the singleton LLM provider. Resets if broken."""
     global _llm_instance
     if _llm_instance is None:
+        _llm_instance = LLMProvider()
+    # If no provider available, reset and retry (handles transient init errors)
+    if not _llm_instance.groq_client and not _llm_instance.ollama_available:
+        print("  🔄 LLM: No active provider, reinitializing...")
         _llm_instance = LLMProvider()
     return _llm_instance
