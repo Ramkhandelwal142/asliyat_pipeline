@@ -18,102 +18,86 @@ TEMPLATE_DIR = BASE_DIR / "templates"
 # ═══════════════════════════════════════════════════════
 #  LOGO & BRAND
 # ═══════════════════════════════════════════════════════
-LOGO_PATH   = ASSETS_DIR / "logo.png"      # Drop your logo PNG here
+LOGO_PATH   = ASSETS_DIR / "logo.png"
 BRAND_NAME  = "THE ASLIYAT"
 INSTA_HANDLE = "@the_asliyat"
 
 # ═══════════════════════════════════════════════════════
-#  LLM PROVIDERS  (fill in the ones you want to use)
+#  LLM PROVIDERS
 # ═══════════════════════════════════════════════════════
-
-# --- Option 1: Groq (cloud, FREE, recommended) ---
-# Get your key: https://console.groq.com/keys
 GROQ_API_KEY = os.environ.get("GROQ_API_KEY", "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")
-GROQ_TEXT_MODEL   = "llama-3.3-70b-versatile"                    # Best free text model
-GROQ_VISION_MODEL = "meta-llama/llama-4-scout-17b-16e-instruct"  # Multimodal model from user's list
+GROQ_TEXT_MODEL   = "llama-3.3-70b-versatile"
+GROQ_VISION_MODEL = "meta-llama/llama-4-scout-17b-16e-instruct"
 
-# --- Option 2: Ollama (local, 100% FREE, zero internet needed) ---
-# Install: https://ollama.com  then run: ollama pull llama3.3:70b
 OLLAMA_BASE_URL = os.environ.get("OLLAMA_BASE_URL", "http://localhost:11434")
-OLLAMA_TEXT_MODEL   = "llama3.3:70b"       # For text generation
-OLLAMA_VISION_MODEL = "llava:13b"           # For image analysis (vision)
-OLLAMA_ENABLED = False  # Set True if you have Ollama running locally
+OLLAMA_TEXT_MODEL   = "llama3.3:70b"
+OLLAMA_VISION_MODEL = "llava:13b"
+OLLAMA_ENABLED = False
 
-# --- Provider Priority ---
-# "groq_first" = try Groq, fallback to Ollama if Groq fails
-# "ollama_first" = try Ollama, fallback to Groq
-# "groq_only"   = only use Groq
-# "ollama_only" = only use Ollama
 LLM_PRIORITY = "groq_first"
 
 # ═══════════════════════════════════════════════════════
 #  CONTENT GENERATION SETTINGS
 # ═══════════════════════════════════════════════════════
-NUM_CONCEPTS = 3           # How many meme ideas to generate
-NUM_FINALISTS = 3           # How many to shortlist after scoring
-CONTENT_TEMPERATURE = 0.92  # Higher = more creative
-SCORING_TEMPERATURE = 0.2   # Lower = more consistent scoring
-MAX_CONTENT_RETRIES = 2     # How many times to retry if QA fails
+# FIX #2: Raised from 3 → 10. More options = genuinely better selection.
+# The scoring + second-opinion system only works with real diversity.
+NUM_CONCEPTS = 10
+NUM_FINALISTS = 3
+CONTENT_TEMPERATURE = 0.92
+SCORING_TEMPERATURE = 0.2
+MAX_CONTENT_RETRIES = 2
 
 # ═══════════════════════════════════════════════════════
 #  IMAGE SEARCH SETTINGS
 # ═══════════════════════════════════════════════════════
-IMAGE_SEARCH_ENGINE = "bing"   # "google" or "bing"
-NUM_SCREENSHOTS = 4              # How many scroll screenshots to take
-SCROLL_DISTANCE = 400            # Pixels to scroll between screenshots
-HEADLESS_BROWSER = os.environ.get("HEADLESS_BROWSER", "True").lower() == "true"          # Required for cloud servers
-BROWSER_TIMEOUT = 30             # Seconds before giving up on a page load
+IMAGE_SEARCH_ENGINE = "bing"
+NUM_SCREENSHOTS = 4
+SCROLL_DISTANCE = 400
+HEADLESS_BROWSER = os.environ.get("HEADLESS_BROWSER", "True").lower() == "true"
+BROWSER_TIMEOUT = 30
 
 # ═══════════════════════════════════════════════════════
 #  TEMPLATE / CANVAS SETTINGS
 # ═══════════════════════════════════════════════════════
-# Instagram 4:5 ratio (1080x1350 recommended)
 CANVAS_WIDTH  = 1080
 CANVAS_HEIGHT = 1350
 PANEL_HEIGHT  = CANVAS_HEIGHT // 2   # 675px per panel
 
-# Layout
-IMAGE_COLUMN_WIDTH = 560    # Left column (image)
-TEXT_PADDING        = 35    # Padding around text area
-SEPARATOR_THICKNESS = 4     # Gold line between panels
+IMAGE_COLUMN_WIDTH = 560
+TEXT_PADDING        = 35
+SEPARATOR_THICKNESS = 4
 
-# Colors (R, G, B)
 COLOR_BLACK  = (0, 0, 0)
 COLOR_WHITE  = (255, 255, 255)
 COLOR_GOLD   = (212, 175, 55)
 COLOR_GREY   = (140, 140, 140)
 
-# Font sizes
-FONT_TITLE_SIZE = 54        # "EXPECTATION" / "THE ASLIYAT"
-FONT_BODY_SIZE  = 44        # Meme text
-FONT_HANDLE_SIZE = 24       # "@the_asliyat" watermark
-FONT_SMALL_SIZE = 20        # Small labels
+FONT_TITLE_SIZE = 54
+FONT_BODY_SIZE  = 44
+FONT_HANDLE_SIZE = 24
+FONT_SMALL_SIZE = 20
 
-# Logo
-LOGO_SIZE = 100             # Logo dimensions (square)
-LOGO_POSITION = "bottom-right"  # or "bottom-left"
+LOGO_SIZE = 100
+LOGO_POSITION = "bottom-right"
 
 # ═══════════════════════════════════════════════════════
 #  QA / QUALITY SETTINGS
 # ═══════════════════════════════════════════════════════
-QA_MIN_SCORE = 6            # Minimum engagement score (1-10) to pass
-QA_AUTO_RETRY = True        # Auto-regenerate if QA fails
-MAX_QA_RETRIES = 2          # Max retry attempts
+# FIX #8: Raised min score from 6 → 7. LLMs score generously,
+# so 6/10 from the AI is actually "mediocre" in real terms.
+QA_MIN_SCORE = 7
+QA_AUTO_RETRY = True
+MAX_QA_RETRIES = 2
 
 # ═══════════════════════════════════════════════════════
 #  RESEARCH SETTINGS
 # ═══════════════════════════════════════════════════════
-RESEARCH_ENABLED = True     # Enable trending topic research
-COMPETITOR_PAGES = [        # Instagram pages to monitor (optional)
-    "@the_asliyat",
-    # Add more pages to monitor:
-    # "@funnymemes",
-    # "@indianmemes",
-]
-TRENDING_REGION = "IN"      # Region for trending topics
+RESEARCH_ENABLED = True
+COMPETITOR_PAGES = ["@the_asliyat"]
+TRENDING_REGION = "IN"
 
 # ═══════════════════════════════════════════════════════
 #  SAVED MEMES LOG
 # ═══════════════════════════════════════════════════════
-SAVE_LOG = True             # Save generation history
+SAVE_LOG = True
 LOG_FILE = OUTPUT_DIR / "generation_log.json"
